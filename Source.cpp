@@ -106,7 +106,7 @@ int main()
 			mainExercise(student);
 			break;
 		}
-		default: std::cout << "\nВыберите варианты от 1 до 5!\n\n" << std::endl;
+		default: std::cout << "\nВыберите варианты от 0 до 5!\n\n" << std::endl;
 		}
 	} while (choise != Exit);
 	return 0;
